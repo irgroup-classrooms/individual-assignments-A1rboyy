@@ -7,9 +7,26 @@
 - Improve on Python skills
 - Write a clean Web Scraper
 
-| Command | Output |
-| # | Heading 1|
-| ## | Heading 2 |
+## Table About Commands
+
+<table>
+    <tr>
+        <td>Command</td>
+        <td>Output</td>
+    </tr>
+    <tr>
+        <td>#</td>
+        <td>Heading 1</td>
+    </tr>
+    <tr>
+        <td>**</td>
+        <td>italic text</td>
+    </tr>
+    <tr>
+        <td>** **</td>
+        <td>bold text</td>
+    </tr>
+</table>
 
 
 > Data is everywhere, use it!
