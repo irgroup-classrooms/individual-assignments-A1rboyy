@@ -17,3 +17,6 @@
 
 
 > Data is everywhere, use it!
+
+if a == a:
+    print("Hello World!")
