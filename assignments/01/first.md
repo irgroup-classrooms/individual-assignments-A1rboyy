@@ -41,3 +41,7 @@
 
 ## Last Message
 **Have a nice day and learn something new everyday**
+
+
+> Who would have thought, that actually putting in the work, would teach you to actually use the thing you want to learn about?
+
