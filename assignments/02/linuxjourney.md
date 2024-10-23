@@ -170,6 +170,72 @@ Run help on the echo command, logout command and pwd command.
     Returns 0 unless an invalid option is given or the current directory
     cannot be read.
 
+### 16.
+Run the man command on the ls command.
+man is a Linux command
+
+### 17.
+Run the whatis command on the less command.
+Also a Linux command
+
+### 18.
+Create a couple of aliases then remove them.
+
+    maehl@DESKTOP-KFT9U41 MINGW64 ~
+    $ alias JJ='ls -l'
+    
+    maehl@DESKTOP-KFT9U41 MINGW64 ~
+    $ JJ
+    total 24905
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024 '3D Objects'/
+    lrwxrwxrwx 1 maehl 197609       30 Apr 15  2024  Anwendungsdaten -> /c/Users/maehl/AppData/Roaming/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  AppData/
+    drwxr-xr-x 1 maehl 197609        0 Jun 26 13:26 'Application Data'/
+    drwxr-xr-x 1 maehl 197609        0 Jun 11 15:07  BrawlhallaReplays/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Contacts/
+    lrwxrwxrwx 1 maehl 197609       58 Apr 15  2024  Cookies -> /c/Users/maehl/AppData/Local/Microsoft/Windows/INetCookies/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Documents/
+    drwxr-xr-x 1 maehl 197609        0 Oct 15 19:22  Downloads/
+    lrwxrwxrwx 1 maehl 197609       66 Apr 15  2024  Druckumgebung -> '/c/Users/maehl/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+    lrwxrwxrwx 1 maehl 197609       24 Apr 15  2024 'Eigene Dateien' -> /c/Users/maehl/Documents/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Favorites/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Links/
+    lrwxrwxrwx 1 maehl 197609       28 Apr 15  2024 'Lokale Einstellungen' -> /c/Users/maehl/AppData/Local/
+    drwxr-xr-x 1 maehl 197609        0 Sep  3 11:02  MoshKurs/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Music/
+    -rw-r--r-- 1 maehl 197609 14417920 Oct 22 23:35  NTUSER.DAT
+    -rw-r--r-- 1 maehl 197609    65536 Apr 15  2024  NTUSER.DAT{291fabc7-fb5d-11ee-85c4-04d3b04e5623}.TM.blf
+    -rw-r--r-- 1 maehl 197609   524288 Apr 15  2024  NTUSER.DAT{291fabc7-fb5d-11ee-85c4-04d3b04e5623}.TMContainer00000000000000000001.regtrans-ms
+    -rw-r--r-- 1 maehl 197609   524288 Apr 15  2024  NTUSER.DAT{291fabc7-fb5d-11ee-85c4-04d3b04e5623}.TMContainer00000000000000000002.regtrans-ms
+    lrwxrwxrwx 1 maehl 197609       66 Apr 15  2024  Netzwerkumgebung -> '/c/Users/maehl/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+    drwxr-xr-x 1 maehl 197609        0 Apr 16  2024  OneDrive/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Pictures/
+    lrwxrwxrwx 1 maehl 197609       55 Apr 15  2024  Recent -> /c/Users/maehl/AppData/Roaming/Microsoft/Windows/Recent/
+    drwxr-xr-x 1 maehl 197609        0 Aug 18 13:50 'Saved Games'/
+    drwxr-xr-x 1 maehl 197609        0 Apr 15  2024  Searches/
+    lrwxrwxrwx 1 maehl 197609       55 Apr 15  2024  SendTo -> /c/Users/maehl/AppData/Roaming/Microsoft/Windows/SendTo/
+    lrwxrwxrwx 1 maehl 197609       59 Apr 15  2024  Startmenü -> '/c/Users/maehl/AppData/Roaming/Microsoft/Windows/Start Menu'/
+    drwxr-xr-x 1 maehl 197609        0 Sep 22 18:18  StudioProjects/
+    drwxr-xr-x 1 maehl 197609        0 Oct 12 18:38  Videos/
+    lrwxrwxrwx 1 maehl 197609       58 Apr 15  2024  Vorlagen -> /c/Users/maehl/AppData/Roaming/Microsoft/Windows/Templates/
+    -rw-r--r-- 1 maehl 197609        0 Oct 23 18:00  dis08
+    -rwxr-xr-x 1 maehl 197609  2635835 Apr 16  2024  get-pip.py*
+    -rw-r--r-- 1 maehl 197609  3582976 Apr 15  2024  ntuser.dat.LOG1
+    -rw-r--r-- 1 maehl 197609  3590144 Apr 15  2024  ntuser.dat.LOG2
+    -rw-r--r-- 1 maehl 197609       20 Apr 15  2024  ntuser.ini
+    drwxr-xr-x 1 maehl 197609        0 Aug  4 01:03  socnetv-data/
+    
+    maehl@DESKTOP-KFT9U41 MINGW64 ~
+    $ unalias JJ
+    
+    maehl@DESKTOP-KFT9U41 MINGW64 ~
+    $ JJ
+    bash: JJ: command not found
+
+### 19.
+Exit out of the shell and see what happens. Make sure you don't need to do anymore work in that shell.
+it closes.
+
 
 # Questions
 ### 1.
@@ -217,6 +283,18 @@ What option should I specify for find if I want to search by name?
 ### 15.
 How do you get quick command line help for built-in bash commands?
 
+### 16.
+How do you see the manuals for a command?
+
+### 17.
+What command can you use to see a small description of a command?
+
+### 18.
+What command is used to make an alias?
+
+### 19.
+How can you exit from the shell
+
 # Answers
 ### 1.
 Hello World
@@ -261,3 +339,17 @@ q
 -name
 
 ### 15.
+    $ help
+
+### 16.
+    $ man
+
+### 17.
+    $ whatis
+
+### 18.
+    $ alias
+
+### 19.
+    $ exit
+
