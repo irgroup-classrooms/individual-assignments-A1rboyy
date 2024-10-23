@@ -1,0 +1,260 @@
+  174  cd /d/bashgame/bashcrawl-stable-2024.02.09/entrance
+  175  cat scroll
+  176  ls
+  177  cd cellar
+  178  ls
+  179  cat treasure 
+  180  cat armoury/
+  181  ls
+  182  cat scroll 
+  183  alias ls='ls -F'
+  184  ls
+  185  cd armoury/
+  186  ls
+  187  ls scroll 
+  188  cat scroll 
+  189  cd ..
+  190  ls
+  191  ./treasure 
+  192  export I=amulet,$I
+  193  echo $I
+  194  echo $I
+  195  I
+  196  ls
+  197  cd armoury/
+  198  ls
+  199  ./ treasure 
+  200  ./ potion 
+  201  cd potion 
+  202  cat potion 
+  203  ./potion 
+  204  export HP=15
+  205  echo $HP
+  206  ls
+  207  ./treasure 
+  208  export I=sword,$I
+  209  echo $I
+  210  ls
+  211  cd chamber/
+  212  ls
+  213  cat scroll 
+  214  ./ treasure 
+  215  /. treasure 
+  216  cat treasure 
+  217  ./ treasure 
+  218  ls
+  219  ./ spell 
+  220  ./treasure 
+  221  I=coins,$I
+  222  ./spell 
+  223  -fs ../../../chapel/courtyard//aviary/hall portal
+  224  ln -fs ../../../chapel/courtyard/aviary/hall portal
+  225  ls
+  226  ./statue 
+  227  let "HP=HP-5"
+  228  ls
+  229  ./pieces 
+  230  ls
+  231  cd portal
+  232  ls
+  233  cd library/
+  234  ös
+  235  ls
+  236  cat scroll 
+  237  ./tome 
+  238  ls
+  239  cd ..
+  240  cd ..
+  241  tree
+  242  tree -F
+  243  ls
+  244  cd ..
+  245  cd ..
+  246  cd ..
+  247  ös
+  248  ls
+  249  cd cellar
+  250  ls
+  251  cd ..
+  252  ls
+  253  cd vault
+  254  ls
+  255  ./glass 
+  256  ls
+  257  cat scroll
+  258  cd stronghold/
+  259  ls
+  260  cat scroll 
+  261  ./goblet 
+  262  op orb1 orb2
+  263  cp orb1 orb2
+  264  cp orb1 orb3
+  265  ls
+  266  ./goblet 
+  267  I=goblet,$I
+  268  echo I
+  269  echo $I
+  270  ls
+  271  ./orb1
+  272  ls
+  273  cd nursery/
+  274  ls
+  275  cat scroll 
+  276  ./spell 
+  277  pwd
+  278  find . -name "potion"
+  279  ls
+  280  cd lab/
+  281  ös
+  282  ls
+  283  cat scroll 
+  284  ./ghost 
+  285  ls
+  286  ./ghost 
+  287  ls
+  288  ./platinum 
+  289  I=platinum,$I
+  290  echo $I
+  291  ls
+  292  ./treasure 
+  293  I=emerald,$I
+  294  echo $I
+  295  ls
+  296  cd ..
+  297  ls
+  298  cd
+  299  ls
+  300  pwd
+  301  cd ..
+  302  cd ..
+  303  cd ..
+  304  cd d
+  305  cd bashgame/
+  306  pwd
+  307  ls
+  308  cd bashcrawl-stable-2024.02.09/
+  309  ls
+  310  cd entrance/
+  311  ls
+  312  history -100 >> bashcrawl.log
+  313  history 100 >> bashcrawl.log 
+  314  ls
+  315  ls
+  316  cd cellar/
+  317  ls
+  318  cat scroll 
+  319  cd ..
+  320  ls
+  321  cd chapel/
+  322  ls
+  323  cat scroll 
+  324  ls
+  325  ./altar 
+  326  ls
+  327  cd ..
+  328  ls 
+  329  find . -name "potion"
+  330  ls
+  331  cd chapel/
+  332  ls
+  333  cd courtyard/
+  334  ls
+  335  ./fountain 
+  336  ./rags 
+  337  export I=rags,fish,$I
+  338  ls
+  339  cat scroll 
+  340  ./fountain 
+  341  cd aviary/
+  342  ls
+  343  ./crystal 
+  344  I=crystal,$I
+  345  echo $I
+  346  ls
+  347  ./penguin 
+  348  export I=$(sed "s/fish//; s/,,/,/" <<< $I)
+  349  ls
+  350  cd hall/
+  351  ls
+  352  ./monster 
+  353  ls
+  354  ./carcass 
+  355  cd library/
+  356  ls
+  357  cat scroll 
+  358  ./tome 
+  359  ls
+  360  cd ..
+  361  ls
+  362  ./treasure 
+  363  I=crown,$I
+  364  echo $I
+  365  cd
+  366  cd ..
+  367  ls
+  368  cd ..
+  369  cd ..
+  370  ls
+  371  cd d
+  372  cd bashgame/
+  373  cd bashcrawl-stable-2024.02.09/
+  374  ls
+  375  cd entrance/
+  376  ls
+  377  cd rift
+  378  cd .rift
+  379  ls
+  380  ./box 
+  381  ls
+  382  cat scroll 
+  383  cd spire/
+  384  ls
+  385  cat scroll 
+  386  cd mezzanine/
+  387  ls
+  388  cat window 
+  389  ./button 
+  390  ls
+  391  cd door/
+  392  ls
+  393  ls
+  394  ./display 
+  395  ls
+  396  ls
+  397  cd dorr
+  398  cd door
+  399  ls
+  400  wtf
+  401  ./button 
+  402  y
+  403  ls
+  404  cd door
+  405  ls
+  406  ./display 
+  407  ls
+  408  histocd ..
+  409  cd ..
+  410  cd ..
+  411  cd ..
+  412  cd ..
+  413  cd ..
+  414  ls
+  415  cd ..
+  416  ls
+  417  history 100 >> bashcrawl.log
+  418  history 300 >> bashcrawl.log
+  419  history 300 >> bashcrawl.log
+  420  cd
+  421  ös
+  422  ls
+  423  pwd
+  424  cd ..
+  425  cd ..
+  426  cd ..
+  427  cd d
+  428  ls
+  429  cd bashgame/
+  430  cd bashcrawl-stable-2024.02.09/
+  431  cd entrance/
+  432  history 250 >> bashcrawl.log
+  433  history 260 >> bashcrawl.log
