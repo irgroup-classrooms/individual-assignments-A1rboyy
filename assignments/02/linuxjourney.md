@@ -55,6 +55,7 @@ Run cat on different files and directories. Then try to cat multiple files.
 
 ### 8.
 Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.    
+
     $ less strings_de.xml
 
 ### 9.
